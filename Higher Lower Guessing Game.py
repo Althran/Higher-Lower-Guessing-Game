@@ -4,7 +4,7 @@ game = 'y'
 numbers_attempt = 0
 win = 0
 print('Hello, this is Higher Lower Guessing Game')
-conceived_number = [i for i in range(0 ,101)]
+conceived_number = [i for i in range(0, 101)]
 while game == 'y':
     computer = random.choice(conceived_number)
 
